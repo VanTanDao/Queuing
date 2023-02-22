@@ -1,20 +1,21 @@
-.login {
+.dangnhap {
     display: flex;
     height: 100vh;
   }
 
-  .login-left {
+  .dangnhap-1 {
     width: 37rem;
     margin: 0 0;
+   background-color: #f6f6f6;
   }
 
-  .login-left-logo {
+  .dangnhap-1-logo {
     margin-top: 5.125rem;
     margin-left: 13rem;
     margin-bottom: 4.6875rem;
   }
 
-  .login-left-from {
+  .dangnhap-1-from {
     width: 25rem;
     height: 12.4375rem;
     font-family: "Nunito";
@@ -22,9 +23,16 @@
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.6875rem;
-  }
 
-  .login-left-from-login input {
+  }
+.dangnhap-1-from p{
+    text-align: center;
+    font-weight: bold;
+    height: 50px;
+
+}
+
+  .dangnhap-1-from-login input {
     width: 100%;
     border: 1.5px solid #D4D4D7;
     border-radius: 8px;
@@ -47,9 +55,21 @@
     margin-bottom: 0.75rem;
   }
 
-  .submit_login {
+  .submit_dangnhap {
     background: #FF9138;
-    /* down */
+    padding: 10px 24px;
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+    margin-top: 1.1875rem;
+    margin-left: 7.75rem;
+    color: #ffffff;
+    width: 10.125rem;
+    height: 2.5rem;
+    border-color: #FFF;
+  }
+
+  .submit_dangnhap_2 {
+    background: #FF9138;
     padding: 10px 24px;
     box-shadow: 0px 0px 6px #E7E9F2;
     border-radius: 8px;
@@ -60,14 +80,14 @@
     height: 2.5rem;
   }
 
-  .login-left-from-login a {
+  .dangnhap-1-from-login a {
     text-decoration: none;
     display: block;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: unset;
   }
 
-  .login-right_connter, .login-right_connter_system {
+  .dangnhap-2_connter, .login-right_connter_system {
     font-family: "Nunito";
     font-style: normal;
     font-weight: 400;
@@ -81,43 +101,40 @@
     box-sizing: border-box;
   }
 
-  .login-left {
+  .dangnhap-1 {
     background-color: #f6f6f6;
   }
 
-  .login-left-from-login input, label {
+  .dangnhap-1-from-login input, label {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     display: flex;
+    color: #363533;
   }
 
-  .login-left-from-login label {
-    color: #37474F;
-  }
 
-  .login-left-from-login input {
-    color: #37474F;
-  }
-
-  .login-left-from-login a {
+  .dangnhap-1-from-login a {
     color: #E73F3F;
   }
 
-  .login-right img {
+  .dangnhap-2 {
+    margin: 0 0;
+    position: relative;
+    width: 53rem;
+  }
+  .dangnhap-2 img {
     width: 37.8125;
     height: 38.37875rem;
     margin-top: 7.05875rem;
     margin-left: 4.75rem;
   }
-
-  .login-right {
-    margin: 0 0;
-    position: relative;
-    width: 53rem;
+  .dangnhap-2_connter {
+    font-family: "Nunito";
+    color: #FF9138;
   }
 
-  .login-right_meu-connter {
+  .dangnhap-2_meu-connter {
     position: absolute;
     left: 28.375rem;
     top: 25.4375rem;
@@ -127,14 +144,61 @@
     font-weight: 900;
   }
 
-  .login-right_connter {
-    font-family: "Nunito";
-    color: #FF9138;
-  }
-
-  .login-right_connter_system {
+  .dangnhap-2_connter_system {
     font-size: 2.25rem;
     color: #FF9138;
     font-style: normal;
     font-weight: 900;
   }
+  .form-a-forgot-passwd-2{
+    margin-top: 1.1875rem;
+    margin-left: 10rem;
+  }
+  .form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #0d0c0c;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #050505;
+}
+
+.logo image{
+
+    width: 5rem;
+    height: 4rem;
+}
+.logo{
+    margin-left: 3rem;
+}
+.menu{
+    display: flex;
+}
+.calass1{
+
+    width: 12.5rem;
+    margin-left:0.75rem ;
+}
+.calass2{
+
+    width: 77.5rem;
+}
+.fuction-list-Dashboard{
+    width: 3rem;
+    margin-top: 3.375rem;
+    display: flex;
+    margin-left: 4rem;
+
+}
+.fuction-list-Dashboard a{
+    display: flex;
+    text-decoration: none;
+    color: var(--color-fuction-list);
+
+}
+.fuction-list-Dashboard img{
+    margin-right: 0.5rem;
+    width: 3rem;
+}

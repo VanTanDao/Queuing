@@ -15,7 +15,26 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+ });
 Route::get('/login', function () {
-    return view('login');
+    return view('index');
+});
+
+Route::get('/saimatkhau', function () {
+    return view('saimatkhau');
+});
+
+Route::get('/datlaimatkhau', function () {
+    return view('datlaimatkhau');
+});
+
+Route::get('/mknew', function () {
+    return view('mkmoi');
+});
+
+Route::get('/canhan', function () {
+    return view('canhan');
+});
+Route::get('/trangchu', function () {
+    return view('trangchu');
 });
